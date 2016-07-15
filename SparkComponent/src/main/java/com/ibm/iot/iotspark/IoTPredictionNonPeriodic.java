@@ -166,6 +166,8 @@ public class IoTPredictionNonPeriodic extends IoTPrediction {
 	           * }]
 	           *
 	           */
+	           
+	           System.out.println("forecasted data : " + ret);
 	
 	           //remove the first "[" and last "]" from return string
 	           if (ret.length() > 0 && ret.charAt(0) == '[' && ret.charAt(ret.length()-1) == ']') {
